@@ -2,7 +2,7 @@
 
 # Configuration
 DIRECTUS_API_URL="http://localhost:8055"
-CHARGEPOINT_ID="cp001"
+CHARGEPOINT_ID="ws/cp001"
 CP_PASSWORD="DEADBEEFDEADBEEF"
 DIRECTUS_EMAIL="admin@citrineos.com"
 DIRECTUS_PASSWORD="CitrineOS!"
