@@ -3,7 +3,7 @@ import * as https from 'https';
 import { WebSocketServer } from 'ws';
 
 // Configuration
-const host = 'localhost';
+const host = '0.0.0.0';
 const port = 8444;
 const tlsKeyFilePath = 'certificates/leafKey.pem';
 const tlsCertFilePath = 'certificates/certChain.pem';
