@@ -15,6 +15,8 @@ services:
         limits:
           cpus: "${EVEREST_MANAGER_CPUS}"
           memory: "${EVEREST_MANAGER_MEMORY}"
+    ports:
+      - 8849:8849
     depends_on:
       - mqtt-server
     environment:
